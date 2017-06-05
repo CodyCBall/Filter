@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Y86zwq" name="BALLPASS" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Filter" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="1" buildAU="1" buildAUv3="1" buildRTAS="0"
+              buildAAX="0" pluginName="Filter" pluginDesc="Filter" pluginManufacturer="yourcompany"
+              pluginManufacturerCode="Manu" pluginCode="Y86z" pluginChannelConfigs=""
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="FilterAU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.Filter"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="5.0.2"
+              displaySplashScreen="1" reportAppUsage="1" splashScreenColour="Dark"
+              buildStandalone="0" enableIAA="0">
+  <MAINGROUP id="qYpdm0" name="BALLPASS">
+    <GROUP id="{354C11BC-9016-CE12-043B-E58B4199F5D7}" name="Source">
+      <FILE id="ZsF2ar" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="FmyRCH" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="pFk0tJ" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="nCpdfX" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Filter"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="Filter"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_events" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_video" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_box2d" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_osc" path="../../Downloads/JUCE_old(2)/modules"/>
+        <MODULEPATH id="juce_tracktion_marketplace" path="../../Downloads/JUCE/modules/juce_product_unlocking"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_box2d" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_tracktion_marketplace" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>

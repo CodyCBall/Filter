@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BALLPASS - AU.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>BALLPASS - AUv3 AppExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>BALLPASS - All.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>BALLPASS - Shared Code.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>BALLPASS - VST.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>BALLPASS - VST3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4D10BE5CF74BC3F9880E0C19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75D02B431F56EB7441A03BFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8AD7A3A6320C615E23B4879D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C048582FFD2C9E8CE4F26A32</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9D21DEB7E132CDBA51C9C4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0FB5ED6817ED4AEF0B90581</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
