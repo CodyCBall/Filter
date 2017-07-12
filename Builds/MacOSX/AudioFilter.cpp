@@ -2,7 +2,7 @@
 //  AudioFilter.cpp
 //  Filter
 //
-//  Created by Joshua Gonzales on 11/8/16.
+//  Created by Cody Ball on 11/8/16.
 //
 //
 
